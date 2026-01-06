@@ -1,0 +1,122 @@
+
+
+
+.nav-bar {
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    background-color: #fef6e9;
+}
+
+
+.contain-link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    width: 50%;
+    font-size: 18px;
+}
+
+
+
+
+
+.contain-2mobile {
+    width: 100%;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.contain-link-mobile {
+    display: none;
+}
+
+.contain-burger {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .logo-width {
+        width: 180px !important;
+        height: 180px !important;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contain-2mobile {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50%;
+    }
+
+    .contain-link {
+        display: none;
+    }
+
+    .contain-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contain-link-mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+ 
+    .url-link {
+        background-color: #f6f6f6;
+        padding: 13px;
+    }
+
+    .url-link:active {
+        border-bottom: 1px solid #111;
+    }
+
+    .contain-burger {
+        display: block;
+        padding: 13px;
+        text-align: end;
+        padding-right: 0px;
+        font-size: 25px;
+    }
+
+    .burger-menue {
+        background: #f2f1f1;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .burger-menue:hover {
+        /* mostly useless on mobile but for pc people */
+        cursor: pointer;
+    }
+}
+
+
